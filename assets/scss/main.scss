@@ -1,0 +1,27 @@
+/** 1 helpers **/ 
+/** These file can be used to override bulma **/
+@import "./1-helpers/initial-variables";
+@import "./1-helpers/variables";
+@import "./1-helpers/generic";
+@import "./1-helpers/functions";
+@import "./1-helpers/mixins";
+
+/** 2 Tools **/
+@import "./2-tools/bulma";
+
+/** 3. basics **/
+/** basic scss component related code should be here **/
+@import "./3-basics/base";
+@import "./3-basics/buttons";
+@import "./3-basics/links";
+@import "./3-basics/reset";
+@import "./3-basics/typography";
+
+// Layout code like header, footer should be here.
+/** 4.layouts **/
+
+// all the modules like card, modal, hero should be here in a separate files
+/**5.modules **/
+
+/** pages **/
+/** Plz add all the pages related scss code in this folder and import them here. **/
